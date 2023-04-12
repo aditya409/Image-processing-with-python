@@ -1,0 +1,11 @@
+We are assuming that an environment file(.yml) is already present with all the required libraries. We want to use that environment.
+steps are as follow:
+1. Open the command prompt.
+2. Naviagte to the location of environment file using change directory (CD) command.
+3. Once you are in right location we need to create an environemnt using the .yml file.
+4. Start typing> conda env create -f your_env_file.yml (it will download all the libraries and other things)
+5. After completion of the download we need to activate the environment.
+6. Start typing> conda activate  your downloaded file name.
+7. After activation of the environment  we need IDE to work
+8. We will proceeds with Jupyter lab
+9. start Typing conda> jupyter-lab
